@@ -15,16 +15,19 @@ body{
     height:100vh;
     background: url(../apujisbumbproject/bgapuji.jpg)no-repeat center center/cover;
       flex-direction: column;
+      color:white;
     }
 
-#container{
-position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: black;
-  opacity: 0.3;
+#bg::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:black;
+    opacity:0.4;
+}
+
+#bg > *{
+  position: relative;  
 }
 
 .head{
@@ -63,7 +66,7 @@ position: absolute;
     inset:0;
     background:black;
     opacity:1;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
 #txt{
@@ -106,7 +109,7 @@ position: absolute;
     inset:0;
     background:black;
     opacity:1;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
 #tt{
@@ -149,7 +152,7 @@ position: absolute;
     inset:0;
     background:black;
     opacity:1;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
 #ttk{
@@ -192,7 +195,7 @@ position: absolute;
     inset:0;
     background:black;
     opacity:1;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
 #tttk{
@@ -236,7 +239,7 @@ position: absolute;
     inset:0;
     background:black;
     opacity:1;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
 #tk{
@@ -279,7 +282,7 @@ position: absolute;
     inset:0;
     background:black;
     opacity:1;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
 #tik{
@@ -322,7 +325,7 @@ position: absolute;
     inset:0;
     background:black;
     opacity:1;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
 #tiks{
@@ -365,7 +368,7 @@ position: absolute;
     inset:0;
     background:black;
     opacity:1;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
 #tiktoks{
@@ -408,7 +411,7 @@ position: absolute;
     inset:0;
     background:black;
     opacity:1;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
 #tiktok{
@@ -451,7 +454,7 @@ position: absolute;
     inset:0;
     background:black;
     opacity:1;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
 #pipi{
