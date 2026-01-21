@@ -52,7 +52,7 @@ body{
 
 #ofbg{
     position: relative;
-    background: url(one.jpg) no-repeat center center/cover;
+    background: url(bgapuji.jpg)no-repeat center center/cover;
     height:100vh;
     width:100vw;
     display:flex;
@@ -471,4 +471,5 @@ body{
 #picnic.show::before{
     opacity:0;
 }
+
 
